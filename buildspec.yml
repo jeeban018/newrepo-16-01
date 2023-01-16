@@ -10,5 +10,5 @@ phases:
       - echo Build completed successfully
 artifacts:
   files:
-    - target/maven-demo-1.0.war
+    - target/maven-demo-1.0.jar
   discard-paths: yes
