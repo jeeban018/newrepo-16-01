@@ -2,8 +2,9 @@ version: 0.2
 
 phases:
   build:
-    - echo Entered the build phase...
-    - mvn clean compile
+    commands:
+      - echo Entered the build phase...
+      - mvn clean compile
   post_build:
     commands:
       - echo Build completed successfully
